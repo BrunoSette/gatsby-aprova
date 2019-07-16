@@ -1,14 +1,16 @@
 ---
 templateKey: index-page
-title: Sua Coach Para Concursos
-image: /img/computer.jpg
-heading: Você não está sozinho nessa caminhada
-subheading: Maximize o Resultado dos Seus Estudos
+title: Great coffee with a conscience
+image: /img/home-jumbotron.jpg
+heading: Great coffee with a conscience
+subheading: Support sustainable farming while enjoying a cup
 mainpitch:
-  title: Consultoria especializada que vai multiplicar suas chances de ser aprovado
+  title: Why Kaldi
   description: >
-    A forma como estudamos é muito importante e pode ser o diferencial para a aprovação. Estudar é sempre bom, mas com as metodologias específicas você pode ficar mais eficiente e isto te ajudará a atingir o seu pleno potencial. Trabalharemos de forma individualizada e buscando aproveitar plenamente o seu tempo disponível para estudo com metas factíveis e um calendário bem organizado.
-
+    Kaldi is the coffee store for everyone who believes that great coffee
+    shouldn't just taste good, it should do good too. We source all of our beans
+    directly from small scale sustainable farmers and make sure part of the
+    profits are reinvested in their communities.
 description: >-
   Kaldi is the ultimate spot for coffee lovers who want to learn about their
   java’s origin and support the farmers that grew it. We take coffee production,
@@ -16,18 +18,19 @@ description: >-
   anyone.
 intro:
   blurbs:
-    - image: /img/success.jpg
-    - text: >
-         A forma como estudamos é muito importante e pode ser o diferencial para a aprovação. Estudar é sempre bom, mas com as metodologias específicas você pode ficar mais eficiente e isto te ajudará a atingir o seu pleno potencial. Trabalharemos de forma individualizada e buscando aproveitar plenamente o seu tempo disponível para estudo com metas factíveis e um calendário bem organizado.
-    
-    
-    -  text: >
+    - image: /img/coffee.png
+      text: >
+        We sell green and roasted coffee beans that are sourced directly from
+        independent farmers and farm cooperatives. We’re proud to offer a
+        variety of coffee beans grown with great care for the environment and
+        local communities. Check our post or contact us directly for current
+        availability.
+    - image: /img/coffee-gear.png
+      text: >
         We offer a small, but carefully curated selection of brewing gear and
         tools for every taste and experience level. No matter if you roast your
         own beans or just bought your first french press, you’ll find a gadget
         to fall in love with in our shop.
-    - image: /img/woman.jpg
-  
     - image: /img/tutorials.png
       text: >
         Love a great cup of coffee, but never knew how to make one? Bought a
