@@ -1,9 +1,9 @@
 ---
 templateKey: index-page
-title: Great coffee with a conscience
-image: /img/home-jumbotron.jpg
-heading: Great coffee with a conscience
-subheading: Support sustainable farming while enjoying a cup
+title: Sua Coach Para Concursos
+image: /img/computer.jpg
+heading: Você não está sozinho nessa caminhada. 
+subheading: Maximize o Resultado dos Seus Estudos
 mainpitch:
   title: Why Kaldi
   description: >
