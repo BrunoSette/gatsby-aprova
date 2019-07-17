@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-netlify-cms",
-  "description": "Example Gatsby, and Netlify CMS project",
-  "version": "1.1.3",
-  "author": "Austin Green",
+  "name": "aprova-consultores",
+  "description": "A sua Coach para Provas e Concursos",
+  "version": "2.0.0",
+  "author": "Bruno Sette",
   "dependencies": {
     "bulma": "^0.7.0",
     "gatsby": "^2.13.24",
