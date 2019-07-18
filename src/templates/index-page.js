@@ -94,6 +94,16 @@ export const IndexPageTemplate = ({
                   <article className="tile is-child">
                     <PreviewCompatibleImage imageInfo={main.image1} />
                   </article>
+                  <div className="tile">
+                    <article className="tile is-child">
+                      <PreviewCompatibleImage imageInfo={main.image2} />
+                    </article>
+                  </div>
+                  <div>
+                    <article className="tile is-child">
+                      <PreviewCompatibleImage imageInfo={main.image3} />
+                    </article>
+                  </div>
                 </div>
                 <Testimonials testimonials={testimonials} />
               </div>
@@ -123,12 +133,7 @@ IndexPageTemplate.propTypes = {
     image3: PropTypes.oneOfType([PropTypes.object, PropTypes.string])
   }),
   testimonials: PropTypes.array,
-  fullImage: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
-  pricing: PropTypes.shape({
-    heading: PropTypes.string,
-    description: PropTypes.string,
-    plans: PropTypes.array
-  })
+  fullImage: PropTypes.oneOfType([PropTypes.object, PropTypes.string])
 };
 
 const IndexPage = ({ data }) => {
@@ -147,7 +152,6 @@ const IndexPage = ({ data }) => {
         main={frontmatter.main}
         testimonials={frontmatter.testimonials}
         fullImage={frontmatter.full_image}
-        pricing={frontmatter.pricing}
       />
     </Layout>
   );
@@ -235,16 +239,6 @@ export const pageQuery = graphql`
             fluid(maxWidth: 2048, quality: 100) {
               ...GatsbyImageSharpFluid
             }
-          }
-        }
-        pricing {
-          heading
-          description
-          plans {
-            description
-            items
-            plan
-            price
           }
         }
       }
