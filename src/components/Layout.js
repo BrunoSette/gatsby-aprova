@@ -1,18 +1,16 @@
-import React from 'react'
-import { Helmet } from 'react-helmet'
-import Footer from '../components/Footer'
-import Navbar from '../components/Navbar'
-import './all.sass'
-import useSiteMetadata from './SiteMetadata'
+import React from "react";
+import { Helmet } from "react-helmet";
+import Footer from "../components/Footer";
+import Navbar from "../components/Navbar";
+import "./all.sass";
 
 const TemplateWrapper = ({ children }) => {
-  const { title, description } = useSiteMetadata()
   return (
     <div>
       <Helmet>
-        <html lang="en" />
-        <title>{title}</title>
-        <meta name="description" content={description} />
+        <html lang="pt-br" />
+        <title>Aprova Consultores - Coaching para Concursos</title>
+        <meta name="description" content="Coaching para Provas e Concursos" />
 
         <link
           rel="apple-touch-icon"
@@ -40,7 +38,10 @@ const TemplateWrapper = ({ children }) => {
         <meta name="theme-color" content="#fff" />
 
         <meta property="og:type" content="business.business" />
-        <meta property="og:title" content={title} />
+        <meta
+          property="og:title"
+          content="Aprova Consultores - Coaching para Concursos"
+        />
         <meta property="og:url" content="/" />
         <meta property="og:image" content="/img/og-image.jpg" />
       </Helmet>
@@ -48,7 +49,7 @@ const TemplateWrapper = ({ children }) => {
       <div>{children}</div>
       <Footer />
     </div>
-  )
-}
+  );
+};
 
-export default TemplateWrapper
+export default TemplateWrapper;
